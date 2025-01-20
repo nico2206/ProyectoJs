@@ -1,0 +1,525 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "sebastian",
+      "contrasena": "olarte"
+    },
+    {
+      "nombre": "sebastian",
+      "contrasena": "olarte",
+      "id": 2
+    }
+  ],
+  "habitaciones": [
+    {
+      "id": 1,
+      "personas": 2,
+      "estado": "ocupado",
+      "numero": 101,
+      "tipo": "doble",
+      "precio": "$86.448",
+      "servicios": [
+        "Acceso al spa",
+        "Balcón privado",
+        "Vista al mar",
+        "Aire acondicionado",
+        "Televisión por cable"
+      ],
+      "imagen": "./img/imagen 1 habitaciones.jpeg"
+    },
+    {
+      "id": 2,
+      "personas": 2,
+      "estado": "ocupado",
+      "numero": 102,
+      "tipo": "individual",
+      "precio": "$50.183",
+      "servicios": [
+        "Piscina privada",
+        "Televisión por cable",
+        "Desayuno incluido",
+        "Caja fuerte",
+        "Acceso al spa",
+        "Servicio a la habitación"
+      ],
+      "imagen": "./img/imagen 1 habitaciones.jpeg"
+    },
+    {
+      "id": 3,
+      "personas": 2,
+      "estado": "disponible",
+      "numero": 103,
+      "tipo": "familiar",
+      "precio": "$184.600",
+      "servicios": [
+        "Vista al mar",
+        "Desayuno incluido",
+        "Caja fuerte"
+      ],
+      "imagen": "./img/imagen 1 habitaciones.jpeg"
+    },
+    {
+      "id": 4,
+      "personas": 3,
+      "estado": "disponible",
+      "numero": 104,
+      "tipo": "individual",
+      "precio": "$55.442",
+      "servicios": [
+        "Acceso al spa",
+        "Aire acondicionado",
+        "Piscina privada",
+        "Balcón privado",
+        "WiFi gratuito",
+        "Caja fuerte"
+      ],
+      "imagen": "./img/imagen 1 habitaciones.jpeg"
+    },
+    {
+      "id": 5,
+      "personas": 4,
+      "estado": "disponible",
+      "numero": 105,
+      "tipo": "familiar",
+      "precio": "$169.165",
+      "servicios": [
+        "Vista al mar",
+        "WiFi gratuito",
+        "Servicio a la habitación",
+        "Piscina privada"
+      ],
+      "imagen": "img/imagen 8 habitaciones.jpeg"
+    },
+    {
+      "id": 6,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 106,
+      "tipo": "individual",
+      "precio": "$71.772",
+      "servicios": [
+        "Servicio a la habitación",
+        "Caja fuerte",
+        "Aire acondicionado",
+        "Acceso al spa"
+      ],
+      "imagen": "img/imagen 8 habitaciones.jpeg"
+    },
+    {
+      "id": 7,
+      "personas": 2,
+      "estado": "disponible",
+      "numero": 107,
+      "tipo": "doble",
+      "precio": "$87.408",
+      "servicios": [
+        "Vista al mar",
+        "Televisión por cable",
+        "Acceso al spa",
+        "Servicio a la habitación",
+        "Caja fuerte",
+        "Aire acondicionado"
+      ],
+      "imagen": "img/imagen 8 habitaciones.jpeg"
+    },
+    {
+      "id": 8,
+      "personas": 4,
+      "estado": "disponible",
+      "numero": 108,
+      "tipo": "familiar",
+      "precio": "$175.252",
+      "servicios": [
+        "Televisión por cable",
+        "Aire acondicionado",
+        "Acceso al spa",
+        "Desayuno incluido",
+        "WiFi gratuito"
+      ],
+      "imagen": "img/imagen 8 habitaciones.jpeg"
+    },
+    {
+      "id": 9,
+      "personas": 2,
+      "estado": "ocupado",
+      "numero": 109,
+      "tipo": "familiar",
+      "precio": "$189.896",
+      "servicios": [
+        "Servicio a la habitación",
+        "Piscina privada",
+        "Desayuno incluido"
+      ],
+      "imagen": "img/imagen 8 habitaciones.jpeg"
+    },
+    {
+      "id": 10,
+      "personas": 1,
+      "estado": "ocupado",
+      "numero": 110,
+      "tipo": "individual",
+      "precio": "$82.501",
+      "servicios": [
+        "Acceso al spa",
+        "WiFi gratuito",
+        "Piscina privada"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 11,
+      "personas": 1,
+      "estado": "ocupado",
+      "numero": 111,
+      "tipo": "individual",
+      "precio": "$51.645",
+      "servicios": [
+        "Acceso al spa",
+        "Caja fuerte",
+        "Aire acondicionado",
+        "Servicio a la habitación",
+        "Piscina privada",
+        "WiFi gratuito"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 12,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 112,
+      "tipo": "suite",
+      "precio": "$295.400",
+      "servicios": [
+        "Televisión por cable",
+        "Aire acondicionado",
+        "Caja fuerte",
+        "WiFi gratuito",
+        "Balcón privado"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 13,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 113,
+      "tipo": "suite",
+      "precio": "$305.018",
+      "servicios": [
+        "WiFi gratuito",
+        "Piscina privada",
+        "Acceso al spa",
+        "Vista al mar"
+      ],
+      "imagen": "img/imagen4 habitaciones.jpeg"
+    },
+    {
+      "id": 14,
+      "personas": 1,
+      "estado": "disponible",
+      "numero": 114,
+      "tipo": "familiar",
+      "precio": "$182.708",
+      "servicios": [
+        "Aire acondicionado",
+        "Acceso al spa",
+        "Televisión por cable",
+        "Desayuno incluido",
+        "Servicio a la habitación",
+        "Piscina privada"
+      ],
+      "imagen": "img/imagen4 habitaciones.jpeg"
+    },
+    {
+      "id": 15,
+      "personas": 4,
+      "estado": "disponible",
+      "numero": 115,
+      "tipo": "suite",
+      "precio": "$328.288",
+      "servicios": [
+        "Vista al mar",
+        "Piscina privada",
+        "Servicio a la habitación",
+        "WiFi gratuito",
+        "Desayuno incluido",
+        "Televisión por cable"
+      ],
+      "imagen": "img/imagen4 habitaciones.jpeg"
+    },
+    {
+      "id": 16,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 116,
+      "tipo": "doble",
+      "precio": "$86.409",
+      "servicios": [
+        "Balcón privado",
+        "WiFi gratuito",
+        "Caja fuerte",
+        "Piscina privada",
+        "Televisión por cable"
+      ],
+      "imagen": "img/imagen4 habitaciones.jpeg"
+    },
+    {
+      "id": 17,
+      "personas": 3,
+      "estado": "ocupado",
+      "numero": 117,
+      "tipo": "suite",
+      "precio": "$304.127",
+      "servicios": [
+        "Desayuno incluido",
+        "Balcón privado",
+        "Caja fuerte"
+      ],
+      "imagen": "img/imagen4 habitaciones.jpeg"
+    },
+    {
+      "id": 18,
+      "personas": 3,
+      "estado": "disponible",
+      "numero": 118,
+      "tipo": "individual",
+      "precio": "$83.130",
+      "servicios": [
+        "Caja fuerte",
+        "Acceso al spa",
+        "Televisión por cable",
+        "Desayuno incluido"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 19,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 119,
+      "tipo": "individual",
+      "precio": "$56.544",
+      "servicios": [
+        "Piscina privada",
+        "WiFi gratuito",
+        "Balcón privado",
+        "Televisión por cable"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 20,
+      "personas": 2,
+      "estado": "disponible",
+      "numero": 120,
+      "tipo": "individual",
+      "precio": "$54.522",
+      "servicios": [
+        "Acceso al spa",
+        "Piscina privada",
+        "Desayuno incluido",
+        "Televisión por cable"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 21,
+      "personas": 2,
+      "estado": "ocupado",
+      "numero": 121,
+      "tipo": "familiar",
+      "precio": "$166.172",
+      "servicios": [
+        "Balcón privado",
+        "Piscina privada",
+        "Vista al mar",
+        "Televisión por cable",
+        "Aire acondicionado",
+        "Acceso al spa"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 22,
+      "personas": 1,
+      "estado": "disponible",
+      "numero": 122,
+      "tipo": "suite",
+      "precio": "$301.652",
+      "servicios": [
+        "Vista al mar",
+        "Caja fuerte",
+        "Balcón privado"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 23,
+      "personas": 3,
+      "estado": "disponible",
+      "numero": 123,
+      "tipo": "doble",
+      "precio": "$116.072",
+      "servicios": [
+        "WiFi gratuito",
+        "Caja fuerte",
+        "Televisión por cable",
+        "Aire acondicionado"
+      ],
+      "imagen": "img/imagen 6 habitaciones .jpeg"
+    },
+    {
+      "id": 24,
+      "personas": 2,
+      "estado": "disponible",
+      "numero": 124,
+      "tipo": "suite",
+      "precio": "$332.791",
+      "servicios": [
+        "Acceso al spa",
+        "Televisión por cable",
+        "Caja fuerte",
+        "Servicio a la habitación",
+        "Balcón privado",
+        "Vista al mar"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 25,
+      "personas": 3,
+      "estado": "ocupado",
+      "numero": 125,
+      "tipo": "individual",
+      "precio": "$81.583",
+      "servicios": [
+        "Acceso al spa",
+        "Servicio a la habitación",
+        "Balcón privado",
+        "Vista al mar",
+        "Piscina privada"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 26,
+      "personas": 4,
+      "estado": "ocupado",
+      "numero": 126,
+      "tipo": "doble",
+      "precio": "$82.927",
+      "servicios": [
+        "Caja fuerte",
+        "Televisión por cable",
+        "Vista al mar"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 27,
+      "personas": 4,
+      "estado": "disponible",
+      "numero": 127,
+      "tipo": "suite",
+      "precio": "$307.970",
+      "servicios": [
+        "WiFi gratuito",
+        "Acceso al spa",
+        "Piscina privada",
+        "Servicio a la habitación"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 28,
+      "personas": 3,
+      "estado": "disponible",
+      "numero": 128,
+      "tipo": "doble",
+      "precio": "$94.636",
+      "servicios": [
+        "Vista al mar",
+        "Piscina privada",
+        "Acceso al spa",
+        "Televisión por cable",
+        "Servicio a la habitación"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 29,
+      "personas": 1,
+      "estado": "ocupado",
+      "numero": 129,
+      "tipo": "familiar",
+      "precio": "$164.637",
+      "servicios": [
+        "Balcón privado",
+        "Desayuno incluido",
+        "Vista al mar"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    },
+    {
+      "id": 30,
+      "personas": 1,
+      "estado": "ocupado",
+      "numero": 130,
+      "tipo": "individual",
+      "precio": "$60.190",
+      "servicios": [
+        "Balcón privado",
+        "Caja fuerte",
+        "Aire acondicionado",
+        "Servicio a la habitación",
+        "WiFi gratuito"
+      ],
+      "imagen": "img/imagen2 habitaciones.jpeg"
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "personas": 1,
+      "estado": "ocupado",
+      "numero": 130,
+      "tipo": "individual",
+      "fecha entrada": "",
+      "fecha salida": ""
+    },
+    {
+      "habitacionId": 2,
+      "fechaEntrada": "2025-01-21",
+      "fechaSalida": "2025-01-23",
+      "cantidadPersonas": 2,
+      "id": 2
+    },
+    {
+      "habitacionId": 14,
+      "numeroHabitacion": 114,
+      "fechaEntrada": "2025-01-22",
+      "fechaSalida": "2025-01-23",
+      "cantidadPersonas": 1,
+      "id": 4
+    },
+    {
+      "habitacionId": 2,
+      "numeroHabitacion": 102,
+      "fechaEntrada": "2025-01-22",
+      "fechaSalida": "2025-01-23",
+      "cantidadPersonas": 2,
+      "id": 5,
+      "checkIn": true
+    },
+    {
+      "habitacionId": 2,
+      "numeroHabitacion": 102,
+      "fechaEntrada": "2025-01-21",
+      "fechaSalida": "2025-01-22",
+      "cantidadPersonas": 2,
+      "id": 6
+    }
+  ]
+}

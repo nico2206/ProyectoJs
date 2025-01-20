@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte. Llena el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    </header>
+    <main>
+        <section class="contact-form">
+            <form id="contacto-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+        <img src="/img/concepto-icono-whatsapp_23-2147897840.jpg.avif" alt="WhatsApp" />
+    </a>
+    <button class="nav-toggle">☰ Menú</button>
+    
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="#productos">Reservas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+<footer class="footer">
+<div class="footerContent">
+    <p><strong>HOTEL EL RINCON DE CAMILA</strong></p>
+    <p>Donde la comodidad y el lujo se encuentran con la innovación.</p>
+    <div class="socialMedia">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+    <p>&copy; 2025 HOTEL EL RINCON DE CAMILA | Todos los derechos reservados</p>
+</div>
+</footer>
+        
+    <script src="reservas.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles2.css">
+</head>
+<body>
+    <button class="nav-toggle">☰ Menú</button>
+    
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="checkin.html">Reservas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1 class="tituloReservas">Buscar Reservas</h1>
+    <div class="form-container">
+        <form id="form-buscar-reserva">
+            <label for="numeroHabitacion">Número de Habitación:</label>
+            <input type="number" id="numeroHabitacion" placeholder="Ingresa el número de la habitación" required />
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+    <div id="resultado" class="resultado">
+        
+    </div>
+        <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+        <img src="/img/concepto-icono-whatsapp_23-2147897840.jpg.avif" alt="WhatsApp" />
+    </a>
+<footer class="footerReservas">
+<div class="footerContent">
+    <p><strong>HOTEL EL RINCON DE CAMILA</strong></p>
+    <p>Donde la comodidad y el lujo se encuentran con la innovación.</p>
+    <div class="socialMedia">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+    <p>&copy; 2025 HOTEL EL RINCON DE CAMILA | Todos los derechos reservados</p>
+</div>
+</footer>
+        <script src="reservas.js"></script>
+        <script src="checkin.js"></script>
+</body>
+</html>
